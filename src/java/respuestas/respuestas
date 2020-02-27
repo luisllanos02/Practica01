@@ -1,9 +1,18 @@
+ Respuestas de la practica 01
 1-¿Cuántas secciones tiene una clase?, señale cuáles son obligatorias y cuáles no. Dibuja un ejemplo.
-la que deseamos poner al proyecto,las obligatorias son la que necesita,os usar para que funcionme la aplicacion y la mo necesarias son la que
-si la obiamos no afectan la aplicaion. ejemplo:
-Nombre del curso: Inglés 101
-Nombre de sección: Sección 1
-Nombre de sección: Sección 2
+su seccioines son : sentencia import , constructor ,  atributos y propiedades y metodos.
+obligatorios: atributos ,setencia import.
+no obligatorios: metodos,constructor.
+ejemplo:
+class Rectangulo{
+	int x;
+	int y;
+	int ancho;
+	int alto;
+   int calcularArea(){
+	return (ancho*alto);
+   }
+}
 2- Declare un array en Java y asígnele valores.
 char arrayCaracteres[];
 arrayCaracteres = new char[10];
