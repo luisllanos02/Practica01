@@ -1,0 +1,34 @@
+1-¿Cuántas secciones tiene una clase?, señale cuáles son obligatorias y cuáles no. Dibuja un ejemplo.
+la que deseamos poner al proyecto,las obligatorias son la que necesita,os usar para que funcionme la aplicacion y la mo necesarias son la que
+si la obiamos no afectan la aplicaion. ejemplo:
+Nombre del curso: Inglés 101
+Nombre de sección: Sección 1
+Nombre de sección: Sección 2
+2- Declare un array en Java y asígnele valores.
+char arrayCaracteres[];
+arrayCaracteres = new char[10];
+2.1- ¿Cómo obtengo el primer elemento del array?
+usar los siguientes comandos :
+array_values($array)[0]; o array_shift(array_values($array));
+2.2-  ¿y el último?
+se uysaria el siguinete comando:
+strvalores[strvalores.length-1];
+2.3 - ¿Con qué estructura de control se itera/recorre un array? de un ejemplo.
+usando un if : ejemplo 
+<?php
+if ($x > $y) {
+    echo "$x es mayor que $y";
+} else {
+    echo "$y es mayor que $x";
+}
+3 - ¿Qué son los request y response?
+response sirve para mostrar en la pantalla del cliente los codigos que hemos escrito, el request permite el aceso de toda informacion
+que passa del navegador al cliente servidor.
+4- ¿Qué son los códigos HTTP (200, 400, 500) ?
+son los protocolos de http de transferencia de hipertexto:
+200:es un codigo de respuesta que nos da un servidor a una peticion correcta.
+400:es el error que devuelve el servidor cuando hay un error en nuestra peticion.
+500:normalmente ocurre cuando hay una falla en programacion o en la aplicacion web.
+5-Diferencias entre GET y POST.
+get: envia los datos usando la url.
+post: los envia de nuna manera que no podemos verlos de manetra oculta.
